@@ -26,7 +26,7 @@ function iLoveTheBeatles(num){
 
   let newArr = [];
   let phrase = 'I love the Beatles!';
-  let i = 0;
+  let i = 1;
 
   if (num <= 15){
     do {
