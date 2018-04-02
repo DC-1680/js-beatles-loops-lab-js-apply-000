@@ -32,7 +32,7 @@ function iLoveTheBeatles(num){
     newArr.push(phrase);
     i++
   }
-  while (i < num);
+  while (i < num-1);
 
   return newArr; 
 }
