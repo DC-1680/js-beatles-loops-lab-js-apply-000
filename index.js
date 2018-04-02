@@ -28,11 +28,14 @@ function iLoveTheBeatles(num){
   let phrase = 'I love the Beatles!';
   let i = 0;
 
-  do {
-    newArr.push(phrase);
-    i++
+  if (num <= 15){
+    do {
+      newArr.push(phrase);
+      i++
+    }
+    while (i < num-1);
   }
-  while (i < num-1);
 
-  return newArr; 
+
+  return newArr;
 }
