@@ -15,7 +15,7 @@ function johnLennonFacts(array){
   let counter = 0;
 
   while (counter < array.length){
-    let currElement = lennonArr[counter] + "!!!";
+    let currElement = array[counter] + "!!!";
     newArr.push(currElement);
     counter++
   }
