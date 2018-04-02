@@ -34,8 +34,8 @@ function iLoveTheBeatles(num){
       i++
     }
     while (i < num-1);
+  } else {
+    return phrase;
   }
-
-
   return newArr;
 }
