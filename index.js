@@ -17,5 +17,5 @@ function johnLennonFacts(lennonArr){
     let currElement = lennonArr.pop() + "!!!";
     newArr.push(currElement);
   }
-  return newArr; 
+  return newArr;
 }
