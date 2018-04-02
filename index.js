@@ -6,4 +6,5 @@ function theBeatlesPlay(musicians, instruments){
     let memberInstrument = musicians[i] + " plays " + instruments[i] + ".";
     newArr.push(memberInstrument);
   }
+  return newArr; 
 }
