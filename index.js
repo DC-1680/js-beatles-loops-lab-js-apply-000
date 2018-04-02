@@ -24,15 +24,15 @@ function johnLennonFacts(array){
 
 function iLoveTheBeatles(num){
 
-  let newArr = []; 
+  let newArr = [];
   let phrase = 'I love the Beatles!';
-  let i = 0; 
+  let i = 0;
 
   do {
     newArr.push(phrase);
     i++
-  } 
+  }
   while (i < num);
+
+  return newArr; 
 }
-
-
