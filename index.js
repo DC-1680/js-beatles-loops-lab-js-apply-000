@@ -14,7 +14,7 @@ function johnLennonFacts(lennonArr){
   let newArr = [];
 
   while (lennonArr >= 0){
-    let currElement = lennonArr.shift() + "!!!";
+    let currElement = lennonArr.pop() + "!!!";
     newArr.push(currElement);
   }
   return newArr; 
